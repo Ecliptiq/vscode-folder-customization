@@ -1,9 +1,9 @@
 {
-  "name": "folder-customization",
-  "displayName": "Folder Customization",
-  "publisher": "j3lte",
-  "description": "Customize your folder and subfolders based on a specific path. Set a color, text badge, emoji badge or tooltip for any folder in your workspace.",
-  "version": "0.2.0",
+  "name": "ians-folder-customization",
+  "displayName": "Ian's Folder Customization",
+  "publisher": "Ian Doers",
+  "description": "Customize your folder and subfolders based on a specific path. Set a color, text badge, emoji badge or tooltip for any folder in your workspace. Based on the extension by j3lte.",
+  "version": "1.0.0",
   "license": "MIT",
   "icon": "resources/images/icon.png",
   "galleryBanner": {
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/j3lte/vscode-folder-customization"
+    "url": "https://github.com/Ecliptiq/vscode-folder-customization"
   },
   "bugs": {
-    "url": "https://github.com/j3lte/vscode-folder-customization/issues"
+    "url": "https://github.com/Ecliptiq/vscode-folder-customization/issues"
   },
-  "homepage": "https://github.com/j3lte/vscode-folder-customization/blob/main/README.md",
+  "homepage": "https://github.com/Ecliptiq/vscode-folder-customization/blob/main/README.md",
   "author": {
-    "name": "j3lte"
+    "name": "Ecliptiq"
   },
   "engines": {
     "vscode": "^1.92.0"
@@ -2759,6 +2759,16 @@
           "highContrastLight": "#eeeeee"
         },
         "description": "Grey93"
+      },
+      {
+        "id": "foldercustomization.AnsiColor256",
+        "defaults": {
+          "dark": "#E1D9AA",
+          "light": "#E1D9AA",
+          "highContrast": "#E1D9AA",
+          "highContrastLight": "#E1D9AA"
+        },
+        "description": "Custard1"
       }
     ]
   },
